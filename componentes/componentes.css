@@ -1,0 +1,32 @@
+#root{
+    width: 100%;
+ display: flex;
+ justify-content: center;
+ height: 300px;
+}
+.div_formularios{
+ 
+    width: 100%;
+    max-width: 800px;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,6rem);
+    gap: 1rem;
+}
+.div_formularios .item{
+  text-decoration: none;
+  color: rgb(34, 33, 33);
+    border: 1px solid black;
+  border-radius: 3px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.div_formularios .item:hover{
+  background-color: black;
+  transition: 0.3s;
+  color: white;
+}
