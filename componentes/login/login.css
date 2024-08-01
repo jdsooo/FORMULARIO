@@ -39,19 +39,30 @@ h2 {
     margin: 20px 0;
 }
 
-.social-boton {
+.social-boton1 {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     width: 150px;
 }
+.social-boton2{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 150px;
 
-.facebooK{
-    background-color: #3b5998;
 }
 
+.social-boton1{
+    background-color: #2859c4e7;
+}
+.social-boton2{
+    background-color: rgb(0, 0, 0);
+}
 .x{
     background-color: #000000;
 }
