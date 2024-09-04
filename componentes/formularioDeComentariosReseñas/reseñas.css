@@ -1,0 +1,84 @@
+.general-form {
+    height: 30rem;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.section-email,
+.section-rating,
+.section-comment,
+.section-submit {
+    margin-bottom: 20px;
+}
+
+.general-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.general-form input[type="email"],
+.general-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: box-shadow 0.3s;
+}
+
+.general-form input[type="email"]:focus,
+.general-form textarea:focus {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+.general-form textarea {
+    resize: none; 
+    overflow: auto; 
+}
+
+.section-rating {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.general-form .star {
+    font-size: 24px;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.general-form .star:hover,
+.general-form .star.selected {
+    color: #f5b942;
+}
+
+.section-submit button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: brown;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.section-submit button:hover {
+    background-color: chocolate;
+}
+
+body {
+    background-color: blueviolet;
+}
